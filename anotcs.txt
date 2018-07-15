@@ -1,0 +1,34 @@
+state passaria com button igual a true ou false. 
+true exibe uma coisa, se for false exibe outra coisa
+
+props-ele sempre passa de um para o outro
+students, deleteByIndex - chamando ela de pai e passando para o filho
+
+A diferença de state e props -> pq oq state pode mudar uma propriedade. 
+O props não muda. 
+Nõ muda diratamente.
+
+render() -> renderiza um elemento (aparece na tela)
+
+funçoes -> retorna um novo array contendo novos elementos inseridos
+
+cada elemento do array recebe uma insrução(cada elemento da array recebe uma instruçao que é uma função)
+
+const numeros = [1, 2, 3, 4];
+const numeroNovos = numeros.map(function(num) {
+	return num*2;
+	})
+	
+	//Numeros novos [2, 4, 6, 8]
+
+	
+	
+slice()
+
+retorno um novo array contendo os elementos selecionados 
+
+const frutas = ["Banana", "Laranja", "Limao", "uva"];
+const 
+
+O react tem um ciclo de vida
+React do Zero
